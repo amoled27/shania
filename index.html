@@ -28,37 +28,45 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-        <a class="navbar-brand" href="#">Navbar w/ text</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      
+            <a class="navbar-brand logo" href="#">
+                <img src="/img/logo.png" alt="ShaniaTashya">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
+                    <a class="nav-link" href="#">About
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link " href="#">Gigs</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Gigs</a>
+                    <a class="nav-link n-link" href="#">Follow</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Video</a>
+                    <a class="nav-link n-link" href="#">Tracks</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link n-link" href="#">Video</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link n-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link n-link" href="#">Contact</a>
                 </li>
             </ul>
 
         </div>
     </nav>
+    <!--  -->
     <section class="head-background">
 
     </section>
@@ -251,8 +259,55 @@
         </div>
 </section>
 
-<!-- 
-    <section class="gallary">
+<section class="videos">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-0 col-sm-3 col-md-1 col-lg-1  topping gig-hr-top">
+                <hr>
+            </div>
+            <div class=" col-xs-12 col-md-10 col-lg-10 title-gig follow-title">
+                <h1>VIDEOS
+                </h1>
+            </div>
+        </div>
+        <div class="row vid">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <img src="/img/shania-video.jpg" alt="video1" class="img-responsive" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/loFtozxZG0s">        
+                <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <div>
+                                    <iframe width="100%" height="350" src=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <img src="/img/shania-video.jpg" alt="video1" class="img-responsive" data-toggle="modal" data-target="#videoModal2" data-theVideo="https://www.youtube.com/embed/loFtozxZG0s">
+                <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <div>
+                                    <iframe width="100%" height="350" src=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+    <!-- <section class="gallary">
         <div class="container">
             <div class="row">
                 <div class="col-xs-0 col-sm-3 col-md-1 col-lg-1  topping gig-hr-top">
@@ -265,7 +320,7 @@
                 </div>
             </div>
 
-            <article id="wrapper">
+            <article id="wrapper1">
             
             
             
@@ -275,20 +330,20 @@
                         data-nav_timing="1000" data-nav_show="true" data-nav_delay_inverse="1" data-nav_pagination="6" data-gallery_cover="true"
                         data-gallery_effect="slide_horizontal" data-gallery_fullscreenw="90%" data-gallery_fullscreenh="100%">
             
-                        <img src="img/HR/01.jpg" data-highres="img/LR/01.jpg" data-caption="Parturient Bibendum Malesuada Etiam"
+                        <img src="img/HR/01.jpeg" data-highres="img/HR/01.jpeg" data-caption="Parturient Bibendum Malesuada Etiam"
                         />
-                        <img src="img/HR/02.jpg" data-highres="img/LR/02.jpg" />
+                        <img src="img/HR/02.jpeg" data-highres="img/HR/02.jpeg" />
                         
-                        <img src="img/HR/04.jpg" data-highres="img/LR/03.jpg" data-caption="Etiam Purus Sollicitudin Fusce" />
+                        <img src="img/HR/04.jpeg" data-highres="img/HR/03.jpeg" data-caption="Etiam Purus Sollicitudin Fusce" />
                         
-                        <img src="img/HR/05.jpg" data-highres="img/LR/05.jpg" data-caption="Parturient Bibendum Malesuada Etiam"
+                        <img src="img/HR/05.jpeg" data-highres="img/HR/05.jpeg" data-caption="Parturient Bibendum Malesuada Etiam"
                         />
-                        <img src="img/HR/03.jpg" data-highres="img/HR/03.jpg" data-caption="Adipiscing Inceptos Ornare Cursus" />
-                        <img src="img/HR/06.jpg" data-highres="img/LR/06.jpg" data-caption="Magna Pharetra Inceptos" />
-                        <img src="img/HR/07.jpg" data-highres="img/LR/07.jpg" data-caption="Parturient Bibendum Malesuada Etiam" />
-                        <img src="img/HR/08.jpg" data-highres="img/LR/08.jpg" data-caption="Magna Pharetra Inceptos" />
-                        <img src="img/HR/05.jpg" data-highres="img/HR/05.jpg" data-caption="Parturient Bibendum Malesuada Etiam" />
-                        <img src="img/HR/06.jpg" data-highres="img/HR/06.jpg" data-caption="Magna Pharetra Inceptos" />
+                        <img src="img/HR/03.jpeg" data-highres="img/HR/03.jpeg" data-caption="Adipiscing Inceptos Ornare Cursus" />
+                        <img src="img/HR/06.jpeg" data-highres="img/HR/06.jpeg" data-caption="Magna Pharetra Inceptos" />
+                        <img src="img/HR/07.jpeg" data-highres="img/HR/07.jpeg" data-caption="Parturient Bibendum Malesuada Etiam" />
+                        <img src="img/HR/08.jpeg" data-highres="img/HR/08.jpeg" data-caption="Magna Pharetra Inceptos" />
+                        <img src="img/HR/05.jpeg" data-highres="img/HR/05.jpeg" data-caption="Parturient Bibendum Malesuada Etiam" />
+                        <img src="img/HR/06.jpeg" data-highres="img/HR/06.jpeg" data-caption="Magna Pharetra Inceptos" />
  
                     </div>
             
@@ -304,13 +359,24 @@
     </section>
 
 
-    <section>
+  -->
 
 
-    </section> -->
-
-
-
+<footer>
+   <div class="footer-logo">
+        <img src="img/logo.png" alt="shaniatashya">
+   </div>
+    <h3>Connect</h3>
+  <div class="line">
+    <div class="mail">
+        <img src="/img/mail.svg" alt="mail">
+    </div>
+    <h5>shania@email.com</h5>
+  </div>
+    <!-- <p>The best thing about being a DJ is making people happy.</p><p> There is nothing like seeing people get up from a table to dance</p> <p>
+    or the expression on their face when they hear a song they love. -->
+<!-- </p> -->
+</footer>
 
     
 
@@ -366,7 +432,7 @@
         };
         if (!isIframe()) {
             var logo = $("<a ></a>");
-            $("#wrapper").prepend(logo), $("#logo").fadeIn()
+            $("#wrapper1").prepend(logo), $("#logo").fadeIn()
         }
 
         /* Initialize the mbGallery */
@@ -391,6 +457,23 @@
 
         if (jQuery.isMobile) {
             jQuery("body").css({ marginBottom: 140 })
+        }
+    </script>
+    <script>
+      autoPlayYouTubeModal();
+
+        //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+        function autoPlayYouTubeModal() {
+            var trigger = $("body").find('[data-toggle="modal"]');
+            trigger.click(function () {
+                var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-theVideo"),
+                    videoSRCauto = videoSRC + "?autoplay=1";
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.close').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
         }
     </script>
 
